@@ -380,6 +380,9 @@ img { max-width: 100%; display: block; }
 }
 
 .cert-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -409,6 +412,15 @@ img { max-width: 100%; display: block; }
   color: var(--text-dim);
   font-size: 0.82rem;
 }
+
+.cert-verify {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.cert-card:hover .cert-verify { text-decoration: underline; }
 
 /* ---------- Contact ---------- */
 .contact-inner { text-align: left; }
