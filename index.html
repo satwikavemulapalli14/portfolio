@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Satwika Vemulapalli | Portfolio</title>
+<meta name="description" content="Satwika Vemulapalli — Computer Science graduate student, software engineer, and builder of AI-powered developer tools." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="#top" class="logo">SV<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Hello, I'm</p>
+      <h1 class="reveal">Satwika Vemulapalli</h1>
+      <h2 class="hero-role reveal">Software Engineer &amp; Graduate CS Student</h2>
+      <p class="hero-text reveal">
+        I build AI-powered developer tools and full-stack applications — from automated
+        code review platforms to cloud-ready image processing APIs. Currently pursuing my
+        Master's in Computer Science at Seattle University.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-links reveal">
+        <a href="https://github.com/satwikavemulapalli14" target="_blank" rel="noopener">GitHub</a>
+        <span class="sep">/</span>
+        <a href="https://www.linkedin.com/in/satwika-vemulapalli-116026226/" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="sep">/</span>
+        <a href="mailto:satwikavemulapalli14@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="hero-bg" aria-hidden="true"></div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-label reveal">01 — About</p>
+      <h3 class="section-title reveal">A little about me</h3>
+      <p class="about-text reveal">
+        I'm a Master's student in Computer Science at Seattle University (GPA 3.88/4.00),
+        with a Bachelor's in Computer Science from Koneru Lakshmaiah Education Foundation
+        (GPA 9.63/10.00). My work sits at the intersection of full-stack development, cloud
+        infrastructure, and applied AI — I like building tools that make developers' lives
+        easier, from AI-assisted code review to automated refactoring engines. I'm certified
+        in AWS, Azure AI, and Red Hat enterprise development, and I'm always looking for the
+        next interesting problem to solve.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-label reveal">02 — Skills</p>
+      <h3 class="section-title reveal">Technical toolkit</h3>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h4>Programming Languages</h4>
+          <div class="tags">
+            <span>Java</span><span>Python</span><span>C</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Web Technologies</h4>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span><span>Node.js</span><span>Express.js</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>AI &amp; APIs</h4>
+          <div class="tags">
+            <span>OpenAI API (GPT-4o)</span><span>Google Gemini API</span><span>GitHub API</span><span>REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Databases</h4>
+          <div class="tags">
+            <span>MySQL</span><span>PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Libraries &amp; Testing</h4>
+          <div class="tags">
+            <span>Sharp</span><span>Multer</span><span>Jest</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Security &amp; Architecture</h4>
+          <div class="tags">
+            <span>JWT Authentication</span><span>GitHub OAuth</span><span>MVC Architecture</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Cloud &amp; DevOps</h4>
+          <div class="tags">
+            <span>AWS</span><span>Docker</span><span>Git</span><span>GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-label reveal">03 — Projects</p>
+      <h3 class="section-title reveal">Things I've built</h3>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h4>GitFlowAI</h4>
+            <span class="project-index">01</span>
+          </div>
+          <p>
+            An AI-powered platform that automatically reviews GitHub pull requests and
+            generates actionable feedback on code quality, security, and best practices
+            using OpenAI GPT-4o. Built on an MVC-based REST architecture with PostgreSQL,
+            JWT authentication, and GitHub OAuth for secure repository management.
+          </p>
+          <div class="tags">
+            <span>React.js</span><span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>OpenAI API</span><span>Docker</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h4>AI-CodeRefactoringEngine</h4>
+            <span class="project-index">02</span>
+          </div>
+          <p>
+            A web application that analyzes source code and generates cleaner, more
+            maintainable code using the Google Gemini API. Features automatic language
+            detection, code smell analysis, side-by-side code comparison, and AI-generated
+            explanations to improve code quality.
+          </p>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Google Gemini API</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <h4>QuickTransform</h4>
+            <span class="project-index">03</span>
+          </div>
+          <p>
+            A RESTful image processing API that applies customizable transformation
+            pipelines — rotation, flipping, and grayscale conversion — using Sharp. Built
+            as a stateless, cloud-ready architecture with Express.js and Multer for
+            efficient in-memory image processing without temporary file storage.
+          </p>
+          <div class="tags">
+            <span>Node.js</span><span>Express.js</span><span>Sharp</span><span>Multer</span><span>Docker</span><span>Jest</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <p class="section-label reveal">04 — Education</p>
+      <h3 class="section-title reveal">Academic background</h3>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h4>Seattle University</h4>
+              <span class="timeline-date">Sept 2025 – June 2027 (Expected)</span>
+            </div>
+            <p class="timeline-sub">Master of Science in Computer Science · GPA: 3.88/4.00 · Seattle, WA</p>
+            <p class="timeline-desc">
+              Coursework: Artificial Intelligence, Software Architecture and Design,
+              Cloud Computing, Refactoring and Software Design, Fundamentals of Software
+              Engineering.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h4>Koneru Lakshmaiah Education Foundation</h4>
+              <span class="timeline-date">Aug 2021 – May 2025</span>
+            </div>
+            <p class="timeline-sub">Bachelor of Technology in Computer Science · GPA: 9.63/10.00 · Vijayawada, India</p>
+            <p class="timeline-desc">
+              Coursework: Operating Systems, Software Engineering, Advanced Object-Oriented
+              Programming, Computer Networks and Security, Machine Learning, Parallel and
+              Distributed Computing, Data Structures.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="certifications">
+    <div class="container">
+      <p class="section-label reveal">05 — Certifications</p>
+      <h3 class="section-title reveal">Credentials</h3>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <h4>AWS Certified Cloud Practitioner</h4>
+          <p class="cert-code">CLF-C01</p>
+          <p class="cert-id">Credential ID: 028VRLZK9NF4Q3K1</p>
+        </div>
+        <div class="cert-card reveal">
+          <h4>Microsoft Certified: Azure AI Fundamentals</h4>
+          <p class="cert-code">AI-900</p>
+          <p class="cert-id">Credential ID: B1E39805A1FF28C7</p>
+        </div>
+        <div class="cert-card reveal">
+          <h4>Red Hat Certified Enterprise Application Developer</h4>
+          <p class="cert-code">EX 183 / 240</p>
+          <p class="cert-id">Credential ID: 230-172-603</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-inner">
+      <p class="section-label reveal">06 — Contact</p>
+      <h3 class="section-title reveal">Let's work together</h3>
+      <p class="contact-text reveal">
+        I'm always open to new opportunities, collaborations, or just a good conversation
+        about software. Reach out any time.
+      </p>
+      <div class="contact-grid reveal">
+        <a href="mailto:satwikavemulapalli14@gmail.com" class="contact-card">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">satwikavemulapalli14@gmail.com</span>
+        </a>
+        <a href="tel:+14255686300" class="contact-card">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+1 (425) 568-6300</span>
+        </a>
+        <a href="https://github.com/satwikavemulapalli14" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">satwikavemulapalli</span>
+        </a>
+        <a href="https://www.linkedin.com/in/satwika-vemulapalli-116026226/" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">satwika-vemulapalli</span>
+        </a>
+      </div>
+      <p class="location reveal">📍 Seattle, WA</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Satwika Vemulapalli. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
